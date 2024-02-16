@@ -6,6 +6,7 @@ pipeline {
         script {
           sh 'docker stop nodejs-project || true'
           sh 'docker rm nodejs-project || true'
+          sh 'docker rmi nodejs-project || true'
         }
       }
     }
