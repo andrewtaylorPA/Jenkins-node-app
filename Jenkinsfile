@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Deploy NodeJS App'){
       steps{
-        sh 'npm run build'
+        sh 'npm build'
       }
     }
   }
