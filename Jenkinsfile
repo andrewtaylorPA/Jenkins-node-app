@@ -8,10 +8,5 @@ pipeline {
         }
       }
     }
-    stage('Deploy NodeJS App'){
-      steps{
-        sh 'npm build'
-      }
-    }
   }
 }
